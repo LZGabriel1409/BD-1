@@ -1,0 +1,5 @@
+ O que é um Projeto de Banco de Dados
+    R: Um Projeto de Banco de Dados seria algo usado pra organizar as informações de forma mais rápida e sem muita bagunça, fazendo o sistema funcionar corretamente e deixando os dados ficarem mais fáceis de serem acessados, de um jeito mais rápido e mais seguro.
+
+ O que é um Sistema de Banco de Dados
+    R: Um Sistema de Banco de Dados seria um local onde você pode fazer de tudo, por exemplo guardar, modificar e usar os dados, porém de um jeito mais fácil e mais seguro do que fazendo tudo separadamente.
