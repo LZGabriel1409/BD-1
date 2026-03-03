@@ -1,5 +1,5 @@
  O que é um Projeto de Banco de Dados
-    R: Um Projeto de Banco de Dados seria algo usado pra organizar as informações de forma mais rápida e sem muita bagunça, fazendo o sistema funcionar corretamente e deixando os dados ficarem mais fáceis de serem acessados, de um jeito mais rápido e mais seguro.
+    R: Um Projeto de Banco de Dados seria o planejamento de como as informações serão organizadas e armazenadas em um sistema. Ele define as tabelas, os campos e os relacionamentos entre os dados, evitando repetições de arquivos e erros. O objetivo dele é garantir a organização, a segurança e o bom desempenho no acesso das informações.
 
  O que é um Sistema de Banco de Dados
-    R: Um Sistema de Banco de Dados seria um local onde você pode fazer de tudo, por exemplo guardar, modificar e usar os dados, porém de um jeito mais fácil e mais seguro do que fazendo tudo separadamente.
+    R: Um Sistema de Banco de Dados seria um conjunto feito usando banco de dados e o programa que gerencia ele (SGBD). Ele deixa você armazenar, consultar, modificar e excluir dados de um jeito organizado e segura. Exemplos de SGBDs são o MySQL, o Oracle Database e o Microsoft SQL Server. Ele deixa o controle das informações mais fácil, melhora a segurança e torna o acesso aos dados mais rápido e eficiente.
