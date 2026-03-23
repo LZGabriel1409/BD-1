@@ -1,0 +1,65 @@
+*Definição*
+A teoria de conjuntos seria uma parte da matemática que estuda coleções de elementos. Em bancos de dados relacionais, cada tabela pode ser vista como um conjunto de linhas que são chamadas tuplas, e as operações da álgebra relacional viriam diretamente da teoria de conjuntos.
+Tabela = Conjunto de tuplas
+Linha = Elemento do conjunto
+Operações relacionais = Operações de conjunto
+
+
+
+*Operações principais alguns exemplos*
+
+União(∪)
+ Definição: Ela junta todos os elementos de dois conjuntos, sem deixar elementos iguais aparecerem.
+ Exemplo em BD: ela iria selecionar todos os clientes de duas filiais diferentes.
+
+Interseção(∩)
+ Definição: Ela mostra só os elementos comuns entre dois conjuntos.
+ Exemplo em BD: ela encontraria os clientes que compraram em duas lojas diferentes.
+
+Diferença(-)
+ Definição: Ela mostra os elementos que estão em um conjunto mas não no outro.
+ Exemplo em BD: ela lista os clientes da loja A que nunca compraram na loja B.
+
+Plano Cartesiano (×)
+ Definição: Ela junta todos os elementos de um conjunto com todos os de outro.
+ Exemplo em BD: ela vai relacionar todos os funcionários com todos os projetos possíveis.
+
+Projeção
+ Definição: Ela seleciona só alguns atributos (colunas) de um conjunto.
+ Exemplo em BD: ela mostraria só o nome e o telefone dos clientes.
+
+Seleção
+ Definição: Ela filtra os elementos de acordo com uma condição.
+ Exemplo em BD: ela iria listar clientes com idade maior que 30 anos.
+
+
+
+*Exemplos práticos em SQL*
+ Mesmo o SQL sendo um pouco diferente, as operações se baseam diretamente na teoria de conjuntos:
+
+União:
+ SELECT nome FROM clientes_lojaA
+ UNION
+ SELECT nome FROM clientes_lojaB;
+
+Interseção:
+ SELECT nome FROM clientes_lojaA
+ INTERSECT
+ SELECT nome FROM clientes_lojaB
+
+Diferença:
+ SELECT nome FROM clientes_lojaA
+ EXCEPT
+ SELECT nome FROM clientes_lojaB
+
+Plano Cartesiano:
+ SELECT *
+ FROM clientes
+ CROSS JOIN lojas;
+
+
+
+*Importância da Teoria de Conjuntos*
+ Consistência lógica: Garante que as operações sobre dados sigam regras matemáticas.
+ Flexibilidade: Deixa você combinar informações de diferentes tabelas de uma forma estruturada.
+ Base teórica: A teoria de conjuntos é o uma das principais partes da álgebra relacional, que seria a parte fundamenta do SQL.
