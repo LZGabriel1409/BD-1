@@ -1,5 +1,5 @@
 *Definição*
-A teoria de conjuntos seria uma parte da matemática que estuda coleções de elementos. Em bancos de dados relacionais, cada tabela pode ser vista como um conjunto de linhas que são chamadas tuplas, e as operações da álgebra relacional viriam diretamente da teoria de conjuntos.
+A teoria de conjuntos seria uma parte da matemática que estuda coleções de elementos. Em bancos de dados relacionais, cada tabela pode ser vista como um conjunto de linhas que são chamadas de tuplas, e as operações da álgebra relacional viriam diretamente da teoria de conjuntos.
 Tabela = Conjunto de tuplas
 Linha = Elemento do conjunto
 Operações relacionais = Operações de conjunto
